@@ -1,1 +1,57 @@
+body {
+    margin: 0;
+    padding: 0;
+}
 
+nav {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    justify-items: center;
+    align-items: center;
+    height: 160px;
+    background-color: #b3b3b3;
+    margin: 0;
+}
+
+.nav-item {
+    color: white;
+    text-align: center;
+}
+
+h1 {
+    font-weight: 500;
+    font-size: 22px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+}
+
+.borderd {
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    height: 600px;
+}
+
+.cards {
+    display: grid;
+    align-items: center;
+    background-color: gray;
+    width: 100%;
+    justify-content: center;
+    text-align: center;
+}
+
+.floater {
+    display: subgrid;
+    justify-self: center;
+    background-color: white;
+    color: gray;
+    padding: 15px;
+    font-size: 24px;
+
+}
