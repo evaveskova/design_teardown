@@ -396,7 +396,7 @@ a {
     grid-template-columns: repeat(3, 1fr);
     max-width: 1400px;
     margin: 0 auto;
-    height: 900px;
+    height: auto;
     padding: 100px 50px;
 }
 
@@ -472,4 +472,8 @@ a {
     height: 67px;
     border-radius: 10px;
     background-color: #d3d3d3;
+}
+
+footer {
+    display: block;
 }
