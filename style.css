@@ -348,11 +348,11 @@ a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-content: center;
-    height: 450px;
     width: 100%;
     background-color: #8d8d8d;
-    padding: 0px 50px;
-
+    padding-top: 50px;
+    padding-bottom: 50px;
+    padding-left: 40px;
 }
 
 .text-area {
