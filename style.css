@@ -476,4 +476,50 @@ a {
 
 footer {
     display: block;
+    padding: 60px;
+    background-color: #878787;
+    color: white;
+    text-align: center;
+}
+
+.footer-articles {
+   font-size: 24px;
+   padding-top: 15px;
+   padding-bottom: 15px;
+}
+
+.footer-articles ul {
+  list-style: none;
+  font-weight: 200;
+  line-height: 2;
+}
+
+.footer-articles li {
+    display: inline-block;
+    justify: space-between;
+    width: auto;
+    padding-left: 20px;
+}
+
+.footer-articles li::before {
+  content: "• ";
+  color: #811d15;
+}
+
+
+.footer-text {
+  line-height: 1.7;
+}
+
+.footer-links {
+  margin: 0 auto;
+    display: inline-block;
+    padding: 20px;
+    width: 550px;
+}
+
+.footer-links a {
+  text-decoration: underline;
+  color: white;
+  padding-right: 20px;
 }
