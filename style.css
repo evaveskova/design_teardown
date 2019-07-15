@@ -21,7 +21,7 @@ nav {
     text-align: center;
 }
 
-h1 {
+h2 {
     font-weight: 500;
     font-size: 22px;
     font-family: 'Montserrat', sans-serif;
@@ -411,6 +411,7 @@ a {
     font-size: 28px;
     font-weight: 700;
     margin-bottom: 28px;
+    color: #333;
 }
 
 .guide ul {
